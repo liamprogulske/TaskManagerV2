@@ -1,0 +1,219 @@
+@import 'bulma';
+
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 6rem);
+}
+
+.projects-accordion {
+  margin: 1rem;
+  border: thin solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.project-accordion {
+  margin: 1rem;
+  border: thin solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.profile-accordion {
+  margin: 1rem;
+  border: thin solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.project-main-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.task-detail-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.projects-accordion,
+legend {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.new-project-form {
+  margin: 1rem;
+  border: thin solid black;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.new-project-form,
+legend {
+  margin-left: 1rem;
+}
+
+.new-task-form {
+  margin: 1rem;
+  border: thin solid black;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.form-field {
+  margin: 1rem;
+}
+
+.form-buttons {
+  padding: 1rem;
+}
+
+.footer {
+  padding: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgray;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.back-arrow {
+  margin: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .back-arrow i {
+    opacity: 0;
+  }
+}
+
+.footer-text {
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects-actions {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.projects-button {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  color: black;
+  opacity: 0.75;
+  margin: 1rem;
+}
+
+.project-actions {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.project-button {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  color: black;
+  opacity: 0.75;
+  margin: 1rem;
+}
+
+.plus-icon {
+  color: #00c4a7;
+}
+
+.new-task-icon {
+  color: #3e8ed0;
+}
+
+.login-main {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.hero {
+  padding: 3rem;
+}
+
+.password-reset {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.login-text {
+  padding: 2rem;
+}
+
+.login-box {
+  margin: 2rem 0 0;
+}
+
+.project-accordion .progress-bar progress {
+  margin: 0;
+}
+
+.progress-bar {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-register-button {
+  margin: 1rem 0rem 0rem;
+}
+
+.profile-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-picture {
+  margin: 1rem;
+}
+
+.edit-profile {
+  margin: auto;
+}
