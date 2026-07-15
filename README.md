@@ -32,7 +32,7 @@ A robust, full-stack web application designed to manage, track, and optimize tas
 * [Node.js](https://nodejs.org/) (for client-side dependencies)
 
 ### Local Development
-1. Clone the repository:
+Clone the repository:
    ```bash
    git clone [https://github.com/liamprogulske/TaskManagerV2.git](https://github.com/liamprogulske/TaskManagerV2.git)
    cd TaskManagerV2
